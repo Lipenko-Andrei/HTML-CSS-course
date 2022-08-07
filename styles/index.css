@@ -1,0 +1,6 @@
+table tr td{
+    border: solid green 2px;
+}
+table th{
+    border: solid blue 2px;
+}
