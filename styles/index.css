@@ -32,7 +32,7 @@ body{
     display: flex;
     align-items: center ;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 24px;
 }
 li{
     display: inline;
@@ -42,4 +42,18 @@ li{
 a{
     text-decoration: none;
     color: rgb(95, 99, 99);
+}
+a:hover{
+    color: rgb(163, 167, 167);
+}
+.Avatar{
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 1px rgb(172, 167, 142);
+}
+.Avatar:hover{
+    border-radius: 10px;
+    box-shadow:1px 1px 20px 1px rgb(95, 99, 99);
+}
+h1{
+    margin: 5px;
 }
